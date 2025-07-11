@@ -51,6 +51,16 @@ Copy
 Edit
 
 ---
+---
+ Deployment
+You can try the live demo of ResumeRanker AI here:
+
+🔗 [Launch App on Streamlit Cloud](https://resumerankerai-h.streamlit.app/)
+
+The app runs entirely in the browser via Streamlit and supports resume uploads, JD analysis, and real-time leaderboard generation.
+LLM-based features (like skill extraction or feedback generation) require valid API keys in a .env file and are optional.
+---
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
