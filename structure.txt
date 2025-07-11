@@ -1,0 +1,28 @@
+ResumeRanker-AI/
+├── venv/                        # 🧪 Virtual environment (auto-generated)
+│
+├── app.py                      # 🌐 Gradio interface (upload + leaderboard)
+├── requirements.txt            # 📦 Python dependencies
+├── README.md                   # 📄 Project description & setup guide
+│
+├── agents/
+│   ├── jd_agent.py             # 🤖 Extracts key skills/responsibilities from JD using LLM
+│   └── screening_agent.py      # 🤖 Gives final score + feedback using LLM and skill match
+│
+├── tools/
+│   ├── extract_text.py         # 📄 Extract raw text from PDFs (JD/resumes)
+│   ├── nlp_matcher.py          # 🧠 NLP logic to calculate skill overlap (TF-IDF / keyword)
+│
+├── utils/
+│   ├── leaderboard.py          # 📊 Builds and sorts leaderboard results
+│   └── preprocess.py           # 🧼 Preprocessing utilities (stopwords, tokenization)
+│
+├── sample_data/
+│   ├── jd.pdf                  # 📝 Sample Job Description
+│   └── resumes/                # 📁 Folder with sample resumes
+│       ├── amit_sharma.pdf
+│    
+│       └── ...
+│
+├── output/
+│   └── results.csv             # 📤 Final ranked result saved as CSV (optional)
